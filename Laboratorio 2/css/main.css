@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: greenyellow;
+}
+/* variable */
+:root {
+    --letra1: 'Indie Flower', cursive;
+    --letra2: 'Pacifico', cursive;
+}
+/* fin variable */
+/* inico de transformacion de header */
+.header {
+    width: 150px;
+    height: 100px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 60px;
+    margin: 15px;
+    color: black;
+    font-family: var(--letra1);
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+}
+
+.header__menu--container{
+    margin-right: 20px;
+}
+
+.header__menu li {
+    margin: 15px;
+}
+
+.header__menu a {
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: var(--letra2);
+}
+
+.header__menu a:hover {
+    color: white;
+    transition: 60ms;
+}
+/* fin header */
+/* inicio de seccion de beneficios */
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta {
+    width: 170px;
+    height: 355px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 50px;
+    border: 12px solid darkgreen;
+    cursor: pointer;
+}
+
+.tarjeta img {
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.tarjeta1 {
+    width: 170px;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 50px;
+    border: 12px dashed darkgreen;
+    cursor: pointer;
+}
+
+.tarjeta1 img {
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta1 p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: var(--letra1);
+}
+
+.p {
+    font-family: var(--letra2);
+}
